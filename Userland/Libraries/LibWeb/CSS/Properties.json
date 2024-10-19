@@ -545,6 +545,72 @@
       "hashless-hex-color"
     ]
   },
+  "border-image": {
+    "inherited": false,
+    "initial": "medium currentcolor none",
+    "longhands": [
+      "border-image-source",
+      "border-image-slice",
+      "border-image-width",
+      "border-image-outset",
+      "border-image-repeat"
+    ]
+  },
+  "border-image-outset": {
+    "animation-type": "by-computed-value",
+    "initial": "0",
+    "max-values": 4,
+    "inherited": false,
+    "valid-types": [
+      "length [0,∞]",
+      "number [0,∞]"
+    ]
+  },
+  "border-image-repeat": {
+    "animation-type": "discrete",
+    "initial": "stretch",
+    "max-values": 2,
+    "inherited": false,
+    "valid-identifiers": [
+      "stretch",
+      "repeat",
+      "round",
+      "space"
+    ]
+  },
+  "border-image-slice": {
+    "animation-type": "by-computed-value",
+    "initial": "100%",
+    "inherited": false,
+    "valid-types": [
+      "number [-∞,∞]",
+      "percentage [-∞,∞]"
+    ],
+    "valid-identifiers": [
+      "fill"
+    ],
+    "percentages-resolve-to": "number"
+  },
+  "border-image-source": {
+    "affects-layout": false,
+    "animation-type": "discrete",
+    "inherited": false,
+    "initial": "none",
+    "valid-types": [
+      "image"
+    ],
+    "valid-identifiers": [
+      "none"
+    ]
+  },
+  "border-image-width": {
+    "animation-type": "by-computed-value",
+    "initial": "1",
+    "inherited": false,
+    "valid-types": [
+      "length [0,∞]"
+    ]
+  },
   "border-left": {
     "inherited": false,
     "initial": "medium currentcolor none",
