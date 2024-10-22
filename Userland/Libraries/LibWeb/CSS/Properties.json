@@ -608,8 +608,11 @@
     "initial": "1",
     "inherited": false,
     "valid-types": [
-      "length [0,∞]"
-    ]
+      "length [0,∞]",
+      "percentage [-∞,∞]",
+      "number [-∞,∞]"
+    ],
+    "percentages-resolve-to": "length"
   },
   "border-left": {
     "inherited": false,
